@@ -1,0 +1,23 @@
+body {
+background: #9ee2ff;
+}
+
+.block {
+display: flex;15:48 16.07.2022
+}
+
+.img {
+margin-left: 5%;
+}
+
+.text {
+margin-left: 1.5%;
+margin-right: 5%;
+background: #ffffff;
+padding: 0px 0px 0px 25px;
+width:100%;
+}
+
+p {
+font-size: 130%;
+}
