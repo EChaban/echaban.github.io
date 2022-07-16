@@ -18,6 +18,10 @@ padding: 0px 0px 0px 25px;
 width:100%;
 }
 
+h1 {
+  font-size: 200%;
+}
+
 p {
-font-size: 130%;
+font-size: 150%;
 }
