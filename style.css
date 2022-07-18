@@ -8,6 +8,9 @@ body {
 
 .menu {
 	display: flex;
+	display: table; 
+	margin: 0 auto;
+	padding-top: 25%;
 }
 
 .button {
