@@ -1,16 +1,27 @@
 body {   
-/* Местоположение фоновой картинки */   background-image: url(gackground2.jpg);      
-/* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: right center;      
-/* Фон не повторяется */   background-repeat: no-repeat;      
-/* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
-/* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
-/* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646; }
+	background-image: url(gackground2.jpg);
+	background-position: right center;      
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;      
+	background-color: #464646; }
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
 
 .menu {
 	display: flex;
-	display: table; 
-	margin: 0 auto;
-	margin-top: 25%;
+	margin: 0 auto; 
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	border: medium dashed green;
 }
 
 .button {
@@ -46,13 +57,6 @@ p {
 	margin: 15px 15px 15px 5px;
 	color: black;
 }
-
-
-
-
-
-
-
 
 .transparent {
     filter: alpha(Opacity=50); /* Полупрозрачность для IE */
