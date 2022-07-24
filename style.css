@@ -21,7 +21,7 @@ body {
 	position: absolute;
 	top: 45%;
 	left: 20%;
-	border: medium dashed green;
+	
 }
 
 .button {
@@ -39,6 +39,7 @@ body {
 
 a {
 	text-decoration: none;
+	padding-left: 20px;
 }
 .button:hover{
 	display: flex;
