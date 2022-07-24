@@ -29,6 +29,7 @@ body {
 	border: 3px;
 	background-color: #FFFFFF;
 	border-radius: 5px;
+	height: 50px;
 }
 
 .button a {
@@ -39,9 +40,9 @@ body {
 
 a {
 	text-decoration: none;
-	padding-left: 20px;
+	padding-left: 15px;
 }
-.button:hover{
+.button:hover {
 	display: flex;
 	border: 3px;
 	background-color: #d8e6e6;
@@ -51,11 +52,13 @@ a {
 img {
 	margin: auto;
 	margin-left: 15px;
+	margin-right: 5px;
 }
 
 p {
-	font-size: 150%;
-	margin: 15px 15px 15px 5px;
+	font-size: 130%;
+	margin-right: 15px;
+	margin-top: 13px;
 	color: black;
 }
 
