@@ -20,13 +20,26 @@ body {
 
 .menu {
 	display: flex;
-	margin: 0 auto; 
-	position: absolute;
-	top: 25%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 200px;
+	position: block;
+	width: 500px;
+	border: 1px solid #fff;
+	/*top: 25%;
     left: 50%;
 	width: 500px;
 	margin-left:  -250px;
-	/*outline: 2px solid #000;*/
+	outline: 2px solid #000;*/
+}
+
+.menu2 {
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 25px;
+	width: 500px;
+	border: 1px solid #000;
 }
 
 .button {
