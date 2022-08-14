@@ -34,16 +34,13 @@ body {
 	display: flex;
 	border: 3px;
 	background-color: #FFFFFF;
-	border-radius: 0.7vh;
+	border-radius: 0.6vh;
 	margin-top: 1.5vh;
 	margin-left: 1.5vh;
 }
 
 .button:hover {
-	display: flex;
-	border: 3px;
 	background-color: #d8e6e6;
-	border-radius: 0.7vh;
 }
 
 a {
