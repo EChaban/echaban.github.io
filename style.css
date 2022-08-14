@@ -30,7 +30,6 @@ body {
 }
 
 
-
 .button {
 	display: flex;
 	border: 3px;
@@ -44,7 +43,7 @@ body {
 	display: flex;
 	border: 3px;
 	background-color: #d8e6e6;
-	border-radius: 5px;
+	border-radius: 0.5vh;
 }
 
 a {
