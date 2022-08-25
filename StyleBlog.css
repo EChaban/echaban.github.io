@@ -28,16 +28,11 @@ a:hover {
 }
 
 .mainblock {
-	width: 95vw;
+	width: 90vw;
 	padding: 0px 15px 15px 15px;
 	margin: 50px auto 50px auto;
 	border-radius: 2vh;
 	background: rgba(255, 255, 255, 0.6);
-}
-
-@media screen and (min-width: 1000px) {
-	.mainblock {
-    width: 920px;
 }
 
 .hat {
@@ -73,7 +68,6 @@ a:hover {
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	animation: appear 4s;
 }
-
 
 
 
@@ -212,6 +206,7 @@ a:hover {
 	/*border: 1px solid #fff;*/
 }
 
-.abutton-text {
-	
+@media screen and (min-width: 1000px) {
+	.mainblock {
+    width: 920px;
 }
