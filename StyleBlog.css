@@ -183,15 +183,16 @@ a:hover {
 
 /* closed spoiler */
 .spoiler label::before {
-	content: '►';
-	font-size: 1.5vh;
+	content: "\25B6";
+	font-size: 1.6vh;
 	color: #fff;
 	margin: 0px 5px 0px 30px;
 }
 
 /* opened spoiler */
 .spoiler :checked + label::before {
-	content: '▼';
+	content: "\25BC";
+	font-size: 1.6vh;
 	color: #fff;
 }
 
