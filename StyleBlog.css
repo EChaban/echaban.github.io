@@ -181,14 +181,15 @@ a:hover {
     100% { opacity: 1; }
 }
 
-/* Закрытый спойлер */
+/* closed spoiler */
 .spoiler label::before {
 	content: '►';
+	font-size: 1.5vh;
 	color: #fff;
 	margin: 0px 5px 0px 30px;
 }
 
-/* Открытый спойлер */
+/* opened spoiler */
 .spoiler :checked + label::before {
 	content: '▼';
 	color: #fff;
