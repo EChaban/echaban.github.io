@@ -205,6 +205,20 @@ a:hover {
 	/*border: 1px solid #fff;*/
 }
 
+
+.abutton-text {
+	color: #e8dcff;
+	text-decoration: none;
+}
+
+.abutton-text:visited {
+	color: #e8dcff;
+}
+
+.abutton-text:hover {
+	color: #fff;
+}
+
 @media screen and (min-width: 1000px) {
 	.mainblock {
     width: 920px;
