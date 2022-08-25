@@ -34,6 +34,7 @@ h1 {
     font-weight: 700;
 	color: #fff;
 	font-size: 8vh;
+	animation: appear 2s;
 }
 
 h3 {
@@ -44,6 +45,7 @@ h3 {
     font-weight: 700;
 	color: #fff;
 	font-size: 2.7vh;
+	animation: appear 3s;
 }
 
 .menu {
@@ -55,9 +57,15 @@ h3 {
 	margin-left: auto;
     margin-right: auto;
 	margin-top: 5px;
+	animation: appear 4s;
 	/*border: 1px solid #fff;*/
 }
 
+@keyframes  appear {
+	0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+	
 .button {
 	display: flex;
 	border: 3px;
@@ -109,7 +117,6 @@ p {
 	h1 {
     font-size: 5vh;
 }
-
 
 .transparent {
     filter: alpha(Opacity=50); /* Полупрозрачность для IE */
