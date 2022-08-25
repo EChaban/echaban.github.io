@@ -100,7 +100,7 @@ a:hover {
 }
 
 .pmenu {
-	font-size: 2.5vh;
+	font-size: 24px;
 	margin: auto;
 	color: #27669e;
 	margin-left: auto;
@@ -120,7 +120,7 @@ a:hover {
 	background-color: #FFFFFF;
 	border-radius: 1vh;
 	margin-bottom: 0px;
-	font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: normal normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .ptext {
@@ -144,16 +144,16 @@ a:hover {
 .pTitleFooter {
 	color: #bababa;
 	margin: 0 0 0 30px;
-	font: bold normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .aFooter {
 	margin-bottom: 10px;
-	font: normal normal 17px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: normal normal 1.76vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .aFooterIn {
-	font: normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: normal normal 1.65vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .pFooterIn {
@@ -195,14 +195,11 @@ a:hover {
 }
 
 
-
-
-
 .button-text {
 	text-align: center;
 	margin-top: 15px;
 	color: #fff;
-	font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: normal normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	/*border: 1px solid #fff;*/
 }
 
