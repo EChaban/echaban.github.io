@@ -143,7 +143,7 @@ a:hover {
 
 .pTitleFooter {
 	color: #bababa;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 3vh;
 	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
@@ -172,7 +172,7 @@ a:hover {
 
 .spoiler :checked ~ div {
 	display: block;
-	margin: 0px 0px 0px 70px;
+	margin: 0px 0px 0px 7vh;
 	animation: appear 1s;
 }
 
@@ -186,7 +186,7 @@ a:hover {
 	content: "\25B6";
 	font-size: 1.7vh;
 	color: #fff;
-	margin: 0px 0.8vh 0px 30px;
+	margin: 0px 0.8vh 0px 3vh;
 }
 
 /* opened spoiler */
