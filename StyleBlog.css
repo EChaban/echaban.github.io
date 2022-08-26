@@ -170,7 +170,7 @@ a:hover {
 
 .pTitleFooter {
 	color: #bababa;
-	margin: 0 0 0 3vh;
+	margin: 0 0 0 20px;
 	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
@@ -214,7 +214,7 @@ a:hover {
 	content: "\25B6";
 	font-size: 1.7vh;
 	color: #fff;
-	margin: 0px 0.8vh 0px 3vh;
+	margin: 0px 0.8vh 0px 20px;
 }
 
 /* opened spoiler */
