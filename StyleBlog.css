@@ -200,7 +200,7 @@ a:hover {
 
 .spoiler :checked ~ div {
 	display: block;
-	margin: 0px 0px 0px 6vh;
+	margin: 0px 0px 0px 5.5vh;
 	animation: appear 1s;
 }
 
