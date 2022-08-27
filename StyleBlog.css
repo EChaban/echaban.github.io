@@ -87,6 +87,7 @@ a:hover {
 	border-width: 0 2px 0 0;
 	border-color: #d8e6e6;
 	border-style: solid;
+	cursor: pointer;
 }
 
 .button:hover {
@@ -95,13 +96,13 @@ a:hover {
 
 .amenu {
 	display: flex;
-	margin: auto;
 	text-decoration: none;
 }
 
 .pmenu {
+	display: block;
+	text-align: center;
 	font-size: 2.3vh;
-	margin: auto;
 	color: #27669e;
 	margin-left: auto;
 	margin-right: auto;
@@ -111,45 +112,25 @@ a:hover {
 }
 
 
-
-
-
-
-input[id^="loper"]{
-	display: none;
-}
-
-input[id^="loper"] + label {
-	text-align: center;
-	cursor: pointer;
-	transition: all .6s;
-}
-
-input[id^="loper"]:checked + label {
-	color: #333;
-	background: #ccc;
-}
-
-input[id^="loper"] ~ .loper {
+.UnderTopics {
 	position: absolute;
-	padding: 5px;
-	margin: 0 -2px 0 -2px;
-	background-color: #FFFFFF;
-	border-radius: 0 0 1vh 1vh;
+	background-color: #fff;
 	border-width: 0 2px 2px 2px;
 	border-color: #d8e6e6;
 	border-style: solid;
-	opacity: 0;
-	transition: all .6s;
+	border-radius: 0 0 1vh 1vh;
+	margin: 0 -2px 0 -2px;
+	display: none;
 }
 
-input[id^="loper"]:checked + label + .loper{
-	opacity: 1;
+.button:hover .UnderTopics{
+	display: block;
 }
 
-.loper:hover {
-	background-color: #fff;
-}
+
+
+
+
 
 
 
