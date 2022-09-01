@@ -106,11 +106,9 @@ a:hover {
 	margin-right: auto;
 	margin-top: 2.2vh;
 	margin-bottom: 2.2vh;
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
-
-
-
 
 
 
@@ -122,6 +120,7 @@ a:hover {
 	color: #27669e;
 	margin: 0 auto 0 auto;
 	padding: 2.2vh 0 2.2vh 0;
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	cursor: pointer;
 }
@@ -143,6 +142,7 @@ a:hover {
 .divUnderTopic {
 	background-color: #fff;
 	margin: 0 auto 0 auto;
+	padding: 0 1vh 0 1vh;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	border-width: 1px 0 0 0;
@@ -153,16 +153,21 @@ a:hover {
 }
 
 .aUnderTopic {
-	padding: 0.5vh 1vh 0.5vh 1vh;
-	font-size: 2.3vh;
+	padding: 1vh;
+	color: #27669e;
+	font-size: 2vh;
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
+	
+.aUnderTopic:visited {
+	color: #27669e;
+}
 
-
-
-
-
-
+	.aUnderTopic:hover {
+		color: #5e97d2;
+		text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
+	}
 
 
 
