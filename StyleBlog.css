@@ -74,9 +74,8 @@ a:hover {
 .menu {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	background-color: #fff;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	margin-top: 15px;
 	border-radius: 1vh;
 }
@@ -95,7 +94,6 @@ a:hover {
 }
 
 .amenu {
-	display: flex;
 	text-decoration: none;
 }
 
@@ -112,28 +110,52 @@ a:hover {
 }
 
 
-.UnderTopics {
-	position: absolute;
+
+
+
+
+
+.plabel {
+	display: block;
+	text-align: center;
+	font-size: 2.3vh;
+	color: #27669e;
+	margin: 0 auto 0 auto;
+	padding: 2.2vh 0 2.2vh 0;
+	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	cursor: pointer;
+}
+
+	.plabel:hover {
+		background-color: #d8e6e6;
+	}
+
+.menu input, .divUnderTopic {
+	display: none;
 	background-color: #fff;
-	border-width: 0 2px 2px 2px;
+}
+.menu :checked ~ .divUnderTopic {
+	display: flex;
+	flex-wrap: wrap;
+	animation: appear 1s;
+}
+
+.divUnderTopic {
+	background-color: #fff;
+	margin: 0 auto 0 auto;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	border-width: 1px 0 0 0;
 	border-color: #d8e6e6;
 	border-style: solid;
 	border-radius: 0 0 1vh 1vh;
-	margin: 0 -2px 0 -2px;
-	display: none;
 }
 
-.button:hover .UnderTopics{
-	display: block;
+.aUnderTopic {
+	padding: 0.5vh 1vh 0.5vh 1vh;
+	font-size: 2.3vh;
+	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
-
-
-
-
-
-
-
-
 
 
 
