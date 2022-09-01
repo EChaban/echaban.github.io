@@ -239,7 +239,6 @@ a:hover {
 }
 
 .aFooter {
-	margin-bottom: 10px;
 	font: normal normal 1.76vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
@@ -248,7 +247,7 @@ a:hover {
 }
 
 .pFooterIn {
-	margin: 6px 0px 0px 5.5vh;
+	margin: 6px 0px 10px 5.5vh;
 }
 
 
