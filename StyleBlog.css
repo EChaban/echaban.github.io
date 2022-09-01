@@ -106,7 +106,7 @@ a:hover {
 	margin-right: auto;
 	margin-top: 2.2vh;
 	margin-bottom: 2.2vh;
-	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 	color: #27669e;
 	margin: 0 auto 0 auto;
 	padding: 2.2vh 0 2.2vh 0;
-	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	cursor: pointer;
 }
@@ -142,7 +142,6 @@ a:hover {
 .divUnderTopic {
 	background-color: #fff;
 	margin: 0 auto 0 auto;
-	padding: 0 1vh 0 1vh;
 	grid-column-start: 1;
 	grid-column-end: 5;
 	border-width: 1px 0 0 0;
@@ -156,7 +155,7 @@ a:hover {
 	padding: 1vh;
 	color: #27669e;
 	font-size: 2vh;
-	text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 	
@@ -166,7 +165,7 @@ a:hover {
 
 	.aUnderTopic:hover {
 		color: #5e97d2;
-		text-shadow: 1px 1px 3px rgb(0 0 0 / 35%);
+		text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
 	}
 
 
@@ -249,7 +248,7 @@ a:hover {
 }
 
 .pFooterIn {
-	margin: 6px 0 0px 0;
+	margin: 6px 0px 0px 5.5vh;
 }
 
 
@@ -265,7 +264,6 @@ a:hover {
 
 .spoiler :checked ~ div {
 	display: block;
-	margin: 0px 0px 0px 5.5vh;
 	animation: appear 1s;
 }
 
