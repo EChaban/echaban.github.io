@@ -86,7 +86,6 @@ a:hover {
 	border-width: 0 2px 0 0;
 	border-color: #d8e6e6;
 	border-style: solid;
-	cursor: pointer;
 }
 
 .button:hover {
@@ -94,36 +93,36 @@ a:hover {
 }
 
 .amenu {
-	text-decoration: none;
-}
-
-.pmenu {
 	display: block;
 	text-align: center;
 	font-size: 2.3vh;
 	color: #27669e;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2.2vh;
-	margin-bottom: 2.2vh;
+	padding: 2.2vh 0 2.2vh 0;
+	height: 100%;
+	text-decoration: none;
 	text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
+	.amenu:hover {
+		color: #27669e;
+	}
 
-
+	.amenu:visited {
+		color: #27669e;
+	}
 
 .plabel {
-	display: block;
-	text-align: center;
-	font-size: 2.3vh;
-	color: #27669e;
-	margin: 0 auto 0 auto;
-	padding: 2.2vh 0 2.2vh 0;
-	text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
-	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-	cursor: pointer;
-}
+		display: block;
+		text-align: center;
+		font-size: 2.3vh;
+		color: #27669e;
+		margin: 0 auto 0 auto;
+		padding: 2.2vh 0 2.2vh 0;
+		text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
+		font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+		cursor: pointer;
+	}
 
 	.plabel:hover {
 		background-color: #d8e6e6;
