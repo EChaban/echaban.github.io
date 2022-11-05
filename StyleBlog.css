@@ -64,10 +64,53 @@ a:hover {
 	color: #27669e;
 	font-size: 18px;
 	top: -35px;
-	margin-left: 30px;
+	margin: 0 0 0 30px;
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	animation: appear 4s;
 }
+
+
+.HatLable {
+	position: relative;
+	color: #27669e;
+	font-size: 18px;
+	top: -35px;
+	margin: 0 0 0 30px;
+	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	animation: appear 4s;
+}
+
+
+.HatLable:hover {
+	cursor: pointer;
+}
+
+.hat input, .divUnderHat {
+	display: none;
+}
+
+.hat :checked ~ .divUnderHat {
+	display: block;
+	animation: appear 1s;
+}
+
+.divUnderHat {
+	width: 169px;
+	background-color: #fff;
+	margin: -10px 0 0 30px;
+	padding: 10px 10px 7px 10px;
+	border-width: 1px;
+	border-color: #d8e6e6;
+	border-style: solid;
+	border-radius: 1vh;
+}
+
+
+
+
+
+
+
 
 
 
