@@ -59,21 +59,11 @@ a:hover {
 	animation: appear 2s;
 }
 
-.phat2 {
-	position: relative;
-	color: #27669e;
-	font-size: 18px;
-	top: -35px;
-	margin: 0 0 0 30px;
-	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-	animation: appear 4s;
-}
-
 
 .HatLable {
 	position: relative;
 	color: #27669e;
-	font-size: 18px;
+	font-size: 1.9vh;
 	top: -35px;
 	margin: 0 0 0 30px;
 	font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif;
