@@ -86,7 +86,7 @@ a:hover {
 
 .divUnderHat {
 	width: 169px;
-	margin: -10px 0 0 30px;
+	margin: -15px 0 0 30px;
 	padding: 10px 10px 7px 10px;
 	border-width: 1px;
 	border-color: rgba(255, 255, 255, 0.5);
@@ -94,11 +94,6 @@ a:hover {
 	border-radius: 1vh;
 	background: rgba(255, 255, 255, 0.5);
 }
-
-
-
-
-
 
 
 
