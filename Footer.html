@@ -1,4 +1,4 @@
-﻿<link rel="stylesheet" href="StyleBlog.css" type="text/css">
+﻿
 <p class="pTitleFooter" id="Footer">BLOG ARCHIVE</p>
 <div class="spoiler">
     <input type="checkbox" id="spoiler1">
@@ -18,3 +18,108 @@
     <div><p class="pFooterIn"><a class="aFooterIn" href="">link link link 3</a></p></div>
     <div><p class="pFooterIn"><a class="aFooterIn" href="">link link link link 4</a></p></div>
 </div>--->
+
+
+
+<style>
+
+
+    .pTitleFooter {
+        color: #bababa;
+        margin: 0 0 0 20px;
+        font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    }
+
+    .aFooter {
+        font: normal normal 1.76vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    }
+
+    .aFooterIn {
+        font: normal normal 1.65vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+    }
+
+    .pFooterIn {
+        margin: 6px 0px 10px 5.5vh;
+    }
+
+
+
+
+    .spoiler {
+        margin-top: 10px;
+    }
+
+        .spoiler input, .spoiler div {
+            display: none;
+        }
+
+        .spoiler :checked ~ div {
+            display: block;
+            animation: appear 1s;
+        }
+
+    @keyframes appear {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* closed spoiler */
+    .spoiler label::before {
+        content: "\25B6";
+        font-size: 1.7vh;
+        color: #fff;
+        cursor: pointer;
+        margin: 0px 0.8vh 0px 20px;
+    }
+
+    /* opened spoiler */
+    .spoiler :checked + label::before {
+        content: "\25BC";
+        font-size: 1.7vh;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+    .button-text {
+        text-align: center;
+        margin-top: 15px;
+        color: #fff;
+        font: normal normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+        /*border: 1px solid #fff;*/
+    }
+
+
+    .abutton-text {
+        color: #e8dcff;
+        text-decoration: none;
+    }
+
+        .abutton-text:visited {
+            color: #e8dcff;
+        }
+
+        .abutton-text:hover {
+            color: #fff;
+        }
+
+    @media screen and (min-width: 1000px) {
+        .mainblock {
+            width: 920px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .date {
+            padding: 20px 0 0 20px;
+            color: #2b2b2b;
+            font: normal normal 1.35vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+            text-transform: uppercase;
+        }
+    }
+</style>
