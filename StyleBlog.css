@@ -276,6 +276,15 @@ a:hover {
 	margin: 6px 0px 10px 5.5vh;
 }
 
+.Footer2 {
+	display: inline-block;
+	width: inherit;
+	margin-top: 15px;
+	padding: 0px 0 15px 0px;
+	background-color: #2b2b2b;
+	border-radius: 1vh;
+	background: rgba(43, 43, 43, 0.6);
+}
 
 
 
