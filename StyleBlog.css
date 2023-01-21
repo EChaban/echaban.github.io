@@ -269,12 +269,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
 .Footer {
 	display: inline-block;
 	width: inherit;
@@ -287,9 +281,8 @@ a:hover {
 
 .pTitleFooter {
 	color: #bababa;
-	margin: 0px 0 0 20px;
+	margin: 0 0 0 20px;
 	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
-	float: left;
 }
 
 .aFooter {
