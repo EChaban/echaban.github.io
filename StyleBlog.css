@@ -285,13 +285,18 @@ a:hover {
 	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
-.aFooter {
+.labelFooter {
 	font: normal normal 1.76vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	color: #e8dcff;
+	text-decoration: none;
 }
 
-.aFooterIn {
-	font: normal normal 1.65vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+.labelFooter:hover {
+	color: #fff;
+	cursor: pointer;
 }
+
+
 
 .pFooterIn {
 	margin: 6px 0px 10px 5.5vh;
