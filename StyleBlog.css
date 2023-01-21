@@ -249,7 +249,7 @@ a:hover {
 
 .CommentsSpoler {
 	display: none;
-	padding: 15px 15px 0 15px;
+	margin: 15px 15px 0 15px;
 }
 
 #one:checked ~ #text1,
@@ -260,7 +260,7 @@ a:hover {
 
 .LabelComments {
 	color: #FFF;
-	font: bold normal 1.45vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .LabelComments, #one, #two:hover {
@@ -287,8 +287,8 @@ a:hover {
 
 .pTitleFooter {
 	color: #bababa;
-	margin: 2px 0 0 20px;
-	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	margin: 0px 0 0 20px;
+	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	float: left;
 }
 
