@@ -260,8 +260,15 @@ a:hover {
 
 .LabelComments {
 	color: #FFF;
-	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	font: bold normal 1.45vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
+
+.LabelComments, #one, #two:hover {
+	cursor: pointer;
+}
+
+
+
 
 
 
@@ -280,7 +287,7 @@ a:hover {
 
 .pTitleFooter {
 	color: #bababa;
-	margin: 0 0 0 20px;
+	margin: 2px 0 0 20px;
 	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	float: left;
 }
