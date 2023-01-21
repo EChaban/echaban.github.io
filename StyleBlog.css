@@ -247,6 +247,21 @@ a:hover {
 
 
 
+.CommentsSpoler {
+	display: none;
+	padding: 15px 15px 0 15px;
+}
+
+#one:checked ~ #text1,
+#two:checked ~ #text2
+{
+	display: block;
+}
+
+
+
+
+
 
 .Footer {
 	display: inline-block;
@@ -258,14 +273,11 @@ a:hover {
 	background: rgba(43, 43, 43, 0.6);
 }
 
-.Comments {
-	padding: 15px 15px 0 15px;
-}
-
 .pTitleFooter {
 	color: #bababa;
 	margin: 0 0 0 20px;
 	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	float: left;
 }
 
 .aFooter {

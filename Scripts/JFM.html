@@ -3,7 +3,7 @@
 <head>
     <title>Blog by Eugene Chaban</title>
     <link rel="icon" type="favicon.ico">
-    <link rel="stylesheet" href="../../StyleBlog.css" type="text/css">
+    <link rel="stylesheet" href="../StyleBlog.css" type="text/css">
     <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
 </head>
 <body>
@@ -66,9 +66,13 @@
                 </p>
             </div>
             <div class="Footer">
-                <p class="pTitleFooter" id="Footer">COMMENTS</p>
+                <p class="pTitleFooter" id="Footer">COMMENTS:</p>
+                <input type="radio" name="radio" id="one" checked />
+                <label for="html">VK</label>
+                <input type="radio" name="radio" id="two" />
+                <label for="html">Facebook</label>
 
-                <div class="Comments">
+                <div class="CommentsSpoler" id="text1">
                     <script type="text/javascript">
                         VK.init({ apiId: 51530788, onlyWidgets: true });
                     </script>
@@ -78,6 +82,10 @@
                     <script type="text/javascript">
                         VK.Widgets.Comments("vk_comments", { limit: 10, attach: false });
                     </script>
+                </div>
+
+                <div class="CommentsSpoler" id="text2">
+                    <p>FB</p>
                 </div>
 
                 <div class="button-text">Created by <a class="abutton-text" href="https://echaban.github.io/">me</a> &#128521;</div>
