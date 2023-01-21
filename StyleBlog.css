@@ -258,6 +258,11 @@ a:hover {
 	display: block;
 }
 
+.LabelComments {
+	color: #FFF;
+	font: bold normal 1.55vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+
 
 
 
