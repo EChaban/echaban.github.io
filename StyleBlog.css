@@ -296,6 +296,10 @@ a:hover {
 	cursor: pointer;
 }
 
+.aFooterIn {
+	font: normal normal 1.5vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+
 
 
 .pFooterIn {
