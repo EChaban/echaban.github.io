@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\GitHub\\echaban.github.io\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\GitHub\\echaban.github.io\\Scripts\\JFM.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\JFM.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C98FBA4E-5C8C-4D06-B2C4-78A8379CE874}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{C98FBA4E-5C8C-4D06-B2C4-78A8379CE874}|E:\\GitHub\\echaban.github.io\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C98FBA4E-5C8C-4D06-B2C4-78A8379CE874}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{C98FBA4E-5C8C-4D06-B2C4-78A8379CE874}|solutionrelative:blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "JFM.html",
+              "DocumentMoniker": "E:\\GitHub\\echaban.github.io\\Scripts\\JFM.html",
+              "RelativeDocumentMoniker": "Scripts\\JFM.html",
+              "ToolTip": "E:\\GitHub\\echaban.github.io\\Scripts\\JFM.html",
+              "RelativeToolTip": "Scripts\\JFM.html",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-09T09:44:12.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "E:\\GitHub\\echaban.github.io\\index.html",
               "RelativeDocumentMoniker": "index.html",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "style.css",
               "DocumentMoniker": "E:\\GitHub\\echaban.github.io\\style.css",
               "RelativeDocumentMoniker": "style.css",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "blog.html",
               "DocumentMoniker": "E:\\GitHub\\echaban.github.io\\blog.html",
               "RelativeDocumentMoniker": "blog.html",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StyleBlog.css",
               "DocumentMoniker": "E:\\GitHub\\echaban.github.io\\StyleBlog.css",
               "RelativeDocumentMoniker": "StyleBlog.css",
