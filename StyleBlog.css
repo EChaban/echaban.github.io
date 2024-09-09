@@ -280,9 +280,9 @@ a:hover {
 }
 
 .pTitleFooter {
+	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 	color: #bababa;
 	margin: 1px 0 0 20px;
-	font: bold normal 1.8vh Arial, Tahoma, Helvetica, FreeSans, sans-serif;
 }
 
 .labelFooter {
